@@ -10,7 +10,7 @@ namespace EscapeRoom
 
             bool playAgain = true;
 
-            Console.WriteLine("Hello, and welcome to the ESCAPE ROOM! **SPookY HallowEEN EdiTIOn**");
+            Console.WriteLine("Hello, and welcome to the ESCAPE ROOM! **SpOoKy HaLlOwEeN eDiTiToN**");
            
             Console.WriteLine("First, you will be asked a few questions...");
             
@@ -176,6 +176,8 @@ namespace EscapeRoom
 
                 Console.WriteLine("Do you want to try again?(Y/N)");
                 string loop = Console.ReadLine();
+                
+
                 if (loop == "Y")
                 {
                     playAgain = true;
